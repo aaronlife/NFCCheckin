@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    <item android:id="@+id/edit_tag"
+        android:title="標籤管理"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="ifRoom"/>
+    -->
+
+    <item android:id="@+id/clear_checkin_data"
+          android:title="清除打卡記錄"
+          android:orderInCategory="200"
+          android:icon="@android:drawable/ic_menu_delete"
+          app:showAsAction="ifRoom"/>
+    <!--
+    <item android:id="@+id/export_tag"
+          android:title="匯出標籤資料"
+          android:orderInCategory="300"/>
+
+    <item android:id="@+id/import_tag"
+          android:title="匯入標籤資料"
+          android:orderInCategory="400"/>
+    -->
+
+    <item android:id="@+id/export_checkins"
+          android:title="匯出打卡記錄"
+          android:orderInCategory="500"/>
+</menu>

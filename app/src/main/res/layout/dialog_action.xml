@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#bbdefd">
+
+    <TextView android:id="@+id/action_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="test"/>
+    <TextView android:id="@+id/action_text2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:gravity="center"
+              android:textSize="20sp"
+              android:text="test"/>
+    <Button android:id="@+id/action_checkin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#1e88e5"
+        android:text="打卡"
+        android:textSize="30sp"
+        android:textColor="#fff"/>
+
+    <Button android:id="@+id/action_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#1e88e5"
+        android:text="編輯卡片"
+        android:textSize="30sp"
+        android:textColor="#fff"/>
+
+    <Button android:id="@+id/action_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#1e88e5"
+        android:text="清除卡片"
+        android:textSize="30sp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="注意：卡片請勿移動"
+        android:textSize="24sp"
+        android:textColor="#ff0000"/>
+</LinearLayout>
